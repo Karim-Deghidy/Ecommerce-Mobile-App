@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+        <!-- Product Name -->
+        <EditText
+            android:id="@+id/productNameInput"
+            android:background="@drawable/input_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Description -->
+        <EditText
+            android:id="@+id/productDescriptionInput"
+            android:background="@drawable/input_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Price -->
+        <EditText
+            android:id="@+id/productPriceInput"
+            android:background="@drawable/input_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Stock -->
+        <EditText
+            android:id="@+id/productStockInput"
+            android:background="@drawable/input_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Stock"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Barcode -->
+        <EditText
+            android:id="@+id/productBarcodeInput"
+            android:background="@drawable/input_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Barcode"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Image URL -->
+        <EditText
+            android:id="@+id/productImageUrlInput"
+            android:background="@drawable/input_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Image URL"
+            android:inputType="textUri"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Category Spinner -->
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/saveProductBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Product"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

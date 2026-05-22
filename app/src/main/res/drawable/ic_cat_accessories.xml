@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Ring circle -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M12,7a5,5 0 1 1 0,10a5,5 0 0 1 0,-10z"/>
+
+    <!-- Top diamond / jewel -->
+    <path
+        android:fillColor="#B9F2FF"
+        android:pathData="M12,2l3,3l-3,3l-3,-3z"/>
+</vector>
